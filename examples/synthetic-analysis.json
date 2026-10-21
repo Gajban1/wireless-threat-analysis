@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "tool": "analyze_pcap.py v2.0",
+    "project": "BBSK-Evil-Twin",
+    "timestamp_utc": "2026-10-21T20:48:33.214584+00:00",
+    "target_ssid": "Demo-Office-WiFi",
+    "total_aps": 2,
+    "multiple_bssids_for_ssid": true
+  },
+  "access_points": {
+    "02:00:00:00:00:01": {
+      "bssid": "02:00:00:00:00:01",
+      "ssid": "Demo-Office-WiFi",
+      "frame_count": 120,
+      "channel": 6,
+      "country": null,
+      "supported_rates_mbps": [
+        1.0,
+        2.0,
+        5.5,
+        11.0
+      ],
+      "vendor_specific": [],
+      "avg_rssi_dbm": -45.0,
+      "rssi_min": -47,
+      "rssi_max": -43,
+      "ht_capabilities": null,
+      "ht_primary_channel": null,
+      "power_constraint_db": null,
+      "ie_distribution": {
+        "IE_0": 120,
+        "IE_1": 120,
+        "IE_3": 120
+      },
+      "seq_number_range": {
+        "min": 0,
+        "max": 119
+      },
+      "seq_number_count": 120,
+      "avg_beacon_interval_ms": 100.0
+    },
+    "02:00:00:00:00:02": {
+      "bssid": "02:00:00:00:00:02",
+      "ssid": "Demo-Office-WiFi",
+      "frame_count": 120,
+      "channel": 6,
+      "country": null,
+      "supported_rates_mbps": [
+        1.0,
+        2.0,
+        5.5,
+        11.0
+      ],
+      "vendor_specific": [],
+      "avg_rssi_dbm": -53.0,
+      "rssi_min": -55,
+      "rssi_max": -51,
+      "ht_capabilities": null,
+      "ht_primary_channel": null,
+      "power_constraint_db": null,
+      "ie_distribution": {
+        "IE_0": 120,
+        "IE_1": 120,
+        "IE_3": 120
+      },
+      "seq_number_range": {
+        "min": 1000,
+        "max": 1119
+      },
+      "seq_number_count": 120,
+      "avg_beacon_interval_ms": 100.0
+    }
+  }
+}
